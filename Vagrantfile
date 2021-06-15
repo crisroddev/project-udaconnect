@@ -33,7 +33,11 @@ Vagrant.configure("2") do |config|
       sudo zypper --non-interactive install bzip2
       sudo zypper --non-interactive install etcd
       curl -sfL https://get.k3s.io | sh -
+      sudo zypper addrepo https://download.opensuse.org/repositories/Virtualization:containers/openSUSE_Leap_15.2/Virtualization:containers.repo
+      sudo zypper refresh
+      sudo zypper install docker
     SHELL
+
   end
 
 
