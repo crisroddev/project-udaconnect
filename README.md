@@ -154,5 +154,5 @@ Your architecture diagram should focus on the services and how they talk to one 
 ## Project Steps
 __Design and Document__
 - Architecture Diagram
-![alt text](https://github.com/crisroddev/project-udaconnect) "Architectural Diagram")
+![alt text](https://github.com/crisroddev/project-udaconnect/design.png) "Architectural Diagram")
 
