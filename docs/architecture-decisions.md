@@ -1,9 +1,5 @@
-# Project Steps
-__Design and Document__
-1. Architecture Diagram
-![alt text](https://github.com/crisroddev/project-udaconnect/blob/master/docs/design.png "Architectural Diagram")
-
-2. Decisions Justifications ()
+## Decisions Justifications
+__Justifications Message Passing Strategy__
 
 1. Event Location Microservice will process user location coordinates, this message communication is using gRPC. This decision was made cause of the project requirements, a lot of users sending data continuously, and how the communication is woth kafkka directly and not another service used by users its much better and has better performance when internal services used gRPC.
 
